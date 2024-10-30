@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadheShyam Events</title>
+    <!-- <link rel="icon" type="image/x-icon" href=".\Event Paradise _JM.png"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- CSS only -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link
+  rel="stylesheet"
+  href="swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <nav class="navbar navbar-expand-md ">
+      <div class="container-fluid">
+      
+          <h1 class="logo">Radhe Shyam</h1>
+        <button class="navbar-toggler" onfocus="display()" onblur="displaysss()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  "  id="navbarNav">
+          <ul class="navbar-nav ms-auto small  " style="margin-top: 20px;">
+            <li class="nav-item text-center">
+             
+              <a class="nav-link  " aria-current="page" href="#carouselExampleInterval"><svg width="24" height="24" fill="none" viewBox="0 0 24 24" id="home">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.75024 19.2502H17.2502C18.3548 19.2502 19.2502 18.3548 19.2502 17.2502V9.75025L12.0002 4.75024L4.75024 9.75025V17.2502C4.75024 18.3548 5.64568 19.2502 6.75024 19.2502Z"></path>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.74963 15.7493C9.74963 14.6447 10.6451 13.7493 11.7496 13.7493H12.2496C13.3542 13.7493 14.2496 14.6447 14.2496 15.7493V19.2493H9.74963V15.7493Z"></path>
+              </svg>
+               Home      </a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#serviceAbout"><svg width="24" height="24" fill="none" viewBox="0 0 24 24" id="home">
+                <circle cx="12" cy="8" r="3.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></circle>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.8475 19.25H17.1525C18.2944 19.25 19.174 18.2681 18.6408 17.2584C17.8563 15.7731 16.068 14 12 14C7.93201 14 6.14367 15.7731 5.35924 17.2584C4.82597 18.2681 5.70558 19.25 6.8475 19.25Z"></path>
+              </svg>
+               About</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#se"> <svg width="24" height="24" fill="none" viewBox="0 0 24 24"id="home">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 16L7.49619 12.5067C8.2749 11.5161 9.76453 11.4837 10.5856 12.4395L13 15.25M10.915 12.823C11.9522 11.5037 13.3973 9.63455 13.4914 9.51294C13.4947 9.50859 13.4979 9.50448 13.5013 9.50017C14.2815 8.51598 15.7663 8.48581 16.5856 9.43947L19 12.25M6.75 19.25H17.25C18.3546 19.25 19.25 18.3546 19.25 17.25V6.75C19.25 5.64543 18.3546 4.75 17.25 4.75H6.75C5.64543 4.75 4.75 5.64543 4.75 6.75V17.25C4.75 18.3546 5.64543 19.25 6.75 19.25Z"></path>
+              </svg>
+               Gallery</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link " href="#contact1"><svg width="24" height="24" fill="none" viewBox="0 0 24 24" id="home">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.89286 4.75H6.06818C5.34017 4.75 4.75 5.34017 4.75 6.06818C4.75 13.3483 10.6517 19.25 17.9318 19.25C18.6598 19.25 19.25 18.6598 19.25 17.9318V15.1071L16.1429 13.0357L14.5317 14.6468C14.2519 14.9267 13.8337 15.0137 13.4821 14.8321C12.8858 14.524 11.9181 13.9452 10.9643 13.0357C9.98768 12.1045 9.41548 11.1011 9.12829 10.494C8.96734 10.1537 9.06052 9.76091 9.32669 9.49474L10.9643 7.85714L8.89286 4.75Z"></path>
+              </svg>
+              Contact Us</a>
+              <li class="nav-item text-center">
+                <i class="bi bi-brightness-high"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section>
+    <div class="floating-parent">
+      <a href="tel:8007407429">  <svg width="40" height="40" fill="none" viewBox="0 0 24 24"  class="right-button">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.89286 4.75H6.06818C5.34017 4.75 4.75 5.34017 4.75 6.06818C4.75 13.3483 10.6517 19.25 17.9318 19.25C18.6598 19.25 19.25 18.6598 19.25 17.9318V15.1071L16.1429 13.0357L14.5317 14.6468C14.2519 14.9267 13.8337 15.0137 13.4821 14.8321C12.8858 14.524 11.9181 13.9452 10.9643 13.0357C9.98768 12.1045 9.41548 11.1011 9.12829 10.494C8.96734 10.1537 9.06052 9.76091 9.32669 9.49474L10.9643 7.85714L8.89286 4.75Z"></path>
+     
+      </svg></a>
+  
+   <span class="widgetlabel"><a  style="color: white;" href="tel:8007407429">8007407429</a> </span> 
+ 
+  </div >
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src=".\kis3.jfif" class="d-block w-100" alt="..." > 
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="animate__animated  animate__bounce animate__backInDown animate__delay-2s" >Best Event Planner in India</h1>
+          
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3500">
+          <img src=".\kis2.jfif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="animate__animated animate__bounce animate__backInDown animate__delay-2s ">Destination Wedding Planner</h1>
+         
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src=".\kis4.jfif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="animate__animated animate__bounce animate__backInDown animate__delay-1s" >Birthay Event Organizer</h1>
+          
+          </div>
+        </div>
+      </div>
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+  <!-- </style> -->
+
+  <!-- Swiper -->
+  <!-- <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class=" images swiper-slide"> <img src="img/IMG_20221224_181908.jpg" alt="" id="ig"></div>
+      <div class=" images swiper-slide"> <img src="img/IMG_20221229_185637.jpg" alt="" id="ig"></div>
+      <div class="images swiper-slide"> <img src="img/IMG_20230105_194232.jpg" alt="" id="ig"></div> -->
+      <!-- <div class="images swiper-slide">Slide 4</div>
+      <div class="images swiper-slide">Slide 5</div>
+      <div class="images swiper-slide">Slide 6</div>
+      <div class="images swiper-slide">Slide 7</div>
+      <div class="images swiper-slide">Slide 8</div>
+      <div class="images swiper-slide">Slide 9</div> -->
+    <!-- </div> -->
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+    <!-- <div class="swiper-pagination"></div>
+  </div> -->
+
+  <!-- Swiper JS -->
+
+
+  <!-- Initialize Swiper -->
+
+  </section>
+      <!-- <section class="main">
+        <div class="warpper">
+<div class="slide">
+  <img src=".\IMG_20221224_181908.jpg" alt="" class="image">
+</div>
+        </div>
+      </section> -->
+      <section class="main" id="serviceAbout">
+
+        <h1>WELCOME TO RADHE SHYAM <span class="s">-BEST WEDDING & EVENT MANAGEMENT COMPANY IN SHIRPUR</span> </h1>
+        <p>RADHE SHYAM Event & Weddings -Award Winning Wedding Planners & Event Management Company</p>
+        <img src=".\title-icon.png" alt="">
+        <div class="parent1">
+          <div class="block1"> <h4>Experiences</h4> <h5>2+</h5>
+          </div>
+          <div class="block2"> <h4>Corporate Events </h4> <h5>20+</h5></div>
+          <div class="block3"><h4>Wedding</h4> <h5>30+</h5></div>
+          <div class="block4"><h4>Musical Concerts</h4> <h5>24+</h5> </div>
+        </div>
+      </div>
+      </section>
+      <section class="service"><h1>Event Management Services</h1>
+        <img src=".\title-icon.png" alt="">
+      <div class="parent2">
+        <div class="service1"><i class="fa-solid fa-person-chalkboard"></i> <h4>Corporate Event Management</h4>  <h5>EventParadise Events can be your one-stop event management provider for corporate events. We offer comprehensive corporate event management and creative services, tailor-made precisely according to your needs.</h5><p></p>
+        </div>
+        <div class="service2"><i class="fa-solid fa-cake-candles"></i> <h4>Birthday party </h4> <h5>A birthday party is a party to celebrate the anniversary of someone's birth. Event Paradise Organize Birthay Party </h5></div>
+        <div class="service3"><i class="fa-solid fa-baby-carriage"></i><h4>Baby Shower</h4> <h5>A baby shower is a party attended by friends and family to celebrate the impending birth of a new baby and 'shower' the mum to be with love and good wishes. A baby shower typically includes food, games and also gifts for the new parents, to ensure they have everything they need ahead of the birth.</h5></div>
+        <div class="service4"><i class="fa-solid fa-ring"></i><h4>Wedding</h4> <h5>A wedding is a ceremony where 2 people are united in marriage. Wedding traditions and customs vary greatly between cultures, ethnic groups, religions, countries, and social classes.</h5> </div>
+      </div> 
+      </div>
+
+      <div class="parent3">
+        <div class="service5"><i class="fa-solid fa-children"></i><h4>Anniversary</h4>  <h5>Events Paradise can be your one-stop event management provider for A Anniversary events. We offer comprehensive Anniversary event management and creative services, tailor-made precisely according to your needs.</h5><p></p>
+        </div>
+        <div class="service6">
+          <i class="fa-solid fa-music"></i>
+          <h4>DJ Concert</h4>
+          <h5>Our DJ concert planning service ensures a seamless and unforgettable experience, from sound and lighting to crowd engagement. EventParadise brings the best DJs, state-of-the-art equipment, and a vibrant atmosphere to keep your audience dancing all night. Let us handle every detail, so you can enjoy the show without a hitch.</h5>
+        </div>
+        
+        <div class="service7"><i class="fa-solid fa-ring"></i></i><h4>Ring ceremony</h4> <h5>A Ring is a ceremony where 2 people are united in marriage. Wedding traditions and customs vary greatly between cultures, ethnic groups, religions, countries, and social classes</h5></div>
+        <div class="service8"><i class="fa-solid fa-champagne-glasses"></i><h4>Get together</h4> <h5>to start to organize yourself so that you do things in an effective way: She's so disorganized - I wish she'd get her act together.</h5> </div>
+      </div> 
+      </div>
+      </section>
+     
+<!-- <div class="findme">
+  <h1>FIND ME ON</h1> <br>
+  <p>Feel free to <span>connect</span>  with me</p> <br>
+  <i class="fa-brands fa-github"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <i class="fa-brands fa-linkedin-in"></i><br> <br> <br> <br> <br>
+  <p>Copyright © 2022</p> -->
+
+<!-- 
+</div> -->
+
+<h1 id="ses">We Plan Your Dream Destination Weddings and Events</h1>
+<p id="se">Delivering with Passion</p>
+<img src=".\title-icon.png" alt="" id="ic">
+<section id="sliderimg">
+  <div class="slide-container swiper">
+    <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src=".\surajevents9394-20221229-0001.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Wedding Organizers</h2>
+                    <p class="description">As a Prominent Wedding Organizers in Surat,We think out of the box,EventParadise Events can be your one-stop event management provider for Wedding events.We give our best to make your event</p>
+
+                    <button class="button">View More</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src=".\IMG_20221229_083041_409.webp" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Birthday Management</h2>
+                    <p class="description">A birthday party is a party to celebrate the anniversary of someone's birth. Event Paradise Organize Birthay Party,EventParadise Events can be your one-stop event management provider for Wedding events.</p>
+
+                    <button class="button">View More</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src=".\IMG_20221129_212813.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Anniversary</h2>
+                    <p class="description">Events Paradise can be your one-stop event management provider for A Anniversary events. We offer comprehensive Anniversary event management and creative services, tailor-made precisely according to your needs.</p>
+
+                    <button class="button">View More</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src=".\IMG-20221201-WA0011.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Corporate Event Management</h2>
+                    <p class="description">EventParadise Events can be your one-stop event management provider for corporate events. We offer comprehensive corporate event management and creative services, tailor-made precisely according to your needs.</p>
+
+                    <button class="button">View More</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src=".\IMG_20230105_194232.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">
+                    Get together</h2>
+                  <p class="description">To start to organize yourself so that you do things in an effective way: She's so disorganized - I wish she'd get her act together. We offer comprehensive get together event management and creative services</p>
+
+                  <button class="button">View More</button>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src=".\IMG_20221206_181425.jpg" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Baby Shower</h2>
+                <p class="description">A baby shower is a party attended by friends and family to celebrate the impending birth of a new baby and 'shower' the mum to be with love and good wishes.We offer comprehensive Baby Shower event management and creative services</p>
+
+                <button class="button">View More</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+    <div class="swiper-pagination"></div> -->
+</div>
+
+</section>
+<section class="Contact" id="contact1">
+  <div class="containerr">
+      <div class="Title">
+          <h1>Contact <span class="cc"> Us</span></h1>
+      </div>
+      <div class="box">
+          <div class="contactus form">
+              <h3>Send a Message</h3>
+              <form   action="https://formspree.io/f/mzzbepev"
+              method="POST"
+            >
+                  <div class="formbox">
+                      <div class="row50">
+                          <div class="inputbox">
+                              <span>First Name</span>
+                              <input type="text" placeholder="First Name" autocomplete="off" required name="First name">
+                          </div>
+                          <div class="inputbox">
+                              <span>Last Name</span>
+                              <input type="text" placeholder="Second Name" autocomplete="off" required name="Second name">
+                          </div>
+                      </div>
+
+                      <div class="row50">
+                          <div class="inputbox">
+                              <span>Email</span>
+                              <input type="email" placeholder="johndeo123@gmail.com"autocomplete="off" required name="email">
+                          </div>
+                          <div class="inputbox" >
+                              <span>Mobile</span>
+                              <input type="text" minlength="10" placeholder="deo" name="yournumber" autocomplete="off" required id="numberofcustomer">
+                          </div>
+          
+                      </div>
+        
+                      <div class="row100">
+         
+                          <div class="inputbox">
+                              <span>Message</span>
+                              <textarea placeholder="Write message us" minlength="5" name="message"></textarea>
+                          </div>
+                      </div>
+                      <div class="row100">
+                          <div class="inputbox">
+                              <input type="submit" value="Send">
+                          </div>
+                      </div>
+                  </div>
+              </form>
+          </div>
+          <!--infobox-->
+          <div class="contactus info">
+              <h3>Contact Info</h3>
+              <div class="infobox">
+                  <div>
+                      <span><i class="fa-solid fa-location-dot"></i></span>
+                      <p class="address">Janta Nagar Surat
+                          <br> INDIA</p>
+                  </div>
+                  <div>
+                      <span><i class="fa-solid fa-envelope"></i></span>
+                    
+                      
+                      <p class="address">radheshyamevents.in@gmail.com</p>
+                  </div>
+                  <div>
+                      <span><i class="fa-solid fa-phone"></i></span>
+                     
+                      <p class="address">+91  8007407429</p>
+                  </div>
+                  <ul class="socialmedia">
+
+                      <li><a href="#"target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="contactus map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d59457.04350262542!2d74.83416006540385!3d21.34792257765866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3bdf2d73be157d87%3A0x980ef7a6a390376a!2sJanta%20nagar%20shirpur%2C%208VXG%2B54H%2C%20Vrundavan%20Nagar%2C%20Shirpur%2C%20Maharashtra%20425405!3m2!1d21.3479208!2d74.8753337!4m5!1s0x3bdf2d73be157d87%3A0x980ef7a6a390376a!2sJanta%20nagar%20shirpur!3m2!1d21.3479208!2d74.8753337!5e0!3m2!1sen!2sin!4v1730265488569!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+      </div>
+  </div>
+</section>
+<footer>
+<div class="fotterlogo">
+
+</div>
+<div class="footer-social">
+
+<a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    
+  
+    <a href="#"target="_blank" class="wx"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="copyright">
+    Copyright 2024 @ RadheShyam Events Tamplate.All Right Reserved
+    </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- <script src="swiper-bundle.min.js"></script> -->
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    autoplay:true,
+    autoplayTimeout:1000,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
+
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        950: {
+            slidesPerView: 3,
+        },
+    },
+  });
+  
+</script>
+ <script src="script.js"></script>
+</body>
+</html>
